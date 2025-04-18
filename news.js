@@ -1,7 +1,7 @@
 // ===== API CONFIGURATION =====
 // Replace with your own NewsAPI key from https://newsapi.org
 // You need to sign up on their website to get a free API key
-const apiKey = '9fafb9ff80784d84a9a6555baa41c8d4';
+const apiKey = '123456';
 // Base URL for all NewsAPI endpoints
 const apiUrl = 'https://newsapi.org/v2';
 
