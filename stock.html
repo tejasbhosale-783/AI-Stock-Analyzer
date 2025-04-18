@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Stock Market Dashboard</title>
+  <link rel="stylesheet" href="stock.css" />
+</head>
+<body>
+  <header>
+    <h1>📈 Stock Market Dashboard</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="market.html">Markets</a>
+      <a href="news.html">News</a>
+      <a href="#">About</a>
+      <a href="#">Watchlist</a>
+    </nav>
+  </header>
+
+  <section class="ticker">
+    <marquee direction="left">
+      AAPL: $172.34 ▲ +1.5% | TSLA: $215.87 ▼ -0.8% | AMZN: $125.12 ▲ +0.3% | MSFT: $312.45 ▲ +2.1%
+    </marquee>
+  </section>
+
+  <main>
+    <h2>Top Stocks</h2>
+    <div class="stock-grid">
+      <div class="stock-card">
+        <h3>AAPL</h3>
+        <p>Apple Inc.</p>
+        <p class="price">$172.34</p>
+        <p class="up">+1.5%</p>
+      </div>
+      <div class="stock-card">
+        <h3>TSLA</h3>
+        <p>Tesla, Inc.</p>
+        <p class="price">$215.87</p>
+        <p class="down">-0.8%</p>
+      </div>
+      <div class="stock-card">
+        <h3>AMZN</h3>
+        <p>Amazon.com</p>
+        <p class="price">$125.12</p>
+        <p class="up">+0.3%</p>
+      </div>
+      <div class="stock-card">
+        <h3>MSFT</h3>
+        <p>Microsoft Corp.</p>
+        <p class="price">$312.45</p>
+        <p class="up">+2.1%</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>© 2025 Stock Market Dashboard. All rights reserved.</p>
+  </footer>
+</body>
+</html>

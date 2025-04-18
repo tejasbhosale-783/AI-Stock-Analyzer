@@ -1,0 +1,85 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    box-sizing: border-boxx;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.newscard{
+    display:inline-flex;
+    gap: 6vh;
+}
+
+body{
+    background-color: rgb(224, 233, 233);
+}
+
+header{
+    padding: 5vh;
+    background-color: #0d1b2a;
+    color: white;
+    text-align: center;
+    font-size: 2vh;
+}
+
+h1{
+    padding-top: 1px;
+}
+
+nav a{
+    text-decoration: none;
+    margin: 30px;
+    color: #ccc;
+    text-decoration: none;
+    padding-bottom: 20px;
+}
+
+
+.goldcard{
+    background-color:transparent;
+    height: 600px;
+    width: 400px;
+    perspective: 1000px;
+    margin: 5vh;
+    box-shadow: 10px 10px 100px 1px rgb(133, 131, 131);
+  }
+  
+  
+  .front-side{
+    background-color:rgb(209, 181, 25);
+    color: #0d1b2a;
+    text-align: center;
+  }
+
+  .front-side img{
+    height: 100%;
+    width: 100%;
+  }
+
+  .end-side{
+    text-align: center;
+  }
+
+  .trumpcard{
+    background-color:transparent;
+    height: 600px;
+    width: 400px;
+    perspective: 1000px;
+    margin: 5vh;
+    box-shadow: 10px 10px 100px 1px rgb(133, 131, 131);
+  }
+
+  .earthquakecard{
+    background-color:transparent;
+    height: 600px;
+    width: 400px;
+    perspective: 1000px;
+    margin: 5vh;
+    box-shadow: 10px 10px 100px 1px rgb(133, 131, 131);
+  }
+  
+  .newscard1{
+    display:inline-flex;
+    gap: 6vh;
+}
